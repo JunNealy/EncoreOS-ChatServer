@@ -1,0 +1,19 @@
+{
+  "name": "chatserver",
+  "version": "1.0.0",
+  "description": "A server for managing a websocket based chatroom app",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Junypyr Nealy",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "websocket": "^1.0.35",
+    "ws": "^8.18.0"
+  }
+}
