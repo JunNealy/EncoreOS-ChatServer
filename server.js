@@ -28,18 +28,28 @@ const io = new Server(server, {
 
 io.on('connection', (socket) => {
   console.log('new websocket connect');
-  socket.emit('message', formatMessage(serverMessage, 'hey welcome dog'));
+  socket.emit(
+    'message',
+    formatMessage(
+      serverMessage,
+      'Hello, and welcome to Pigeon presented by EncoreOS'
+    )
+  );
 
   //server message user connection
-  socket.broadcast.emit(
-    'message',
-    formatMessage(serverMessage, 'New user joined')
-  );
+  // socket.broadcast.emit(
+  //   'message',
+  //   formatMessage(serverMessage, 'New user joined')
+  // );
+  //deprecated for below function leaving for now just in case
 
   socket.on('joinChat', (username) => {
     socket.broadcast.emit(
       'message',
-      formatMessage(serverMessage, `${username} has joined the chat`)
+      formatMessage(
+        serverMessage,
+        `${username} has joined the chat ${socket.id}`
+      )
     );
   });
 
@@ -52,9 +62,9 @@ io.on('connection', (socket) => {
   });
 
   //Chatmessage listener
-  socket.on('chatMessage', (message) => {
-    console.log(message);
-    io.emit('message', formatMessage('user', message));
+  socket.on('chatMessage', (message, user) => {
+    console.log(message, user);
+    io.emit('message', formatMessage(user, message));
   });
 });
 
