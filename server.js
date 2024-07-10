@@ -1,6 +1,10 @@
 import cors from 'cors';
 import express from 'express';
+
 import formatMessage from './utils/formatMessage.js';
+
+const serverMessage = 'ServerBot';
+
 const app = express();
 import { createServer } from 'http';
 const server = createServer(app);
@@ -24,20 +28,33 @@ const io = new Server(server, {
 
 io.on('connection', (socket) => {
   console.log('new websocket connect');
-  socket.emit('message', formatMessage('server', 'hey welcome dog'));
+  socket.emit('message', formatMessage(serverMessage, 'hey welcome dog'));
 
   //server message user connection
-  socket.broadcast.emit('message', 'New user joined');
+  socket.broadcast.emit(
+    'message',
+    formatMessage(serverMessage, 'New user joined')
+  );
 
-  //server message user connection
+  socket.on('joinChat', (username) => {
+    socket.broadcast.emit(
+      'message',
+      formatMessage(serverMessage, `${username} has joined the chat`)
+    );
+  });
+
+  //server message user disconnect
   socket.on('disconnect', () => {
-    io.emit('message', 'a user has left the chat');
+    io.emit(
+      'message',
+      formatMessage(serverMessage, 'a user has left the chat')
+    );
   });
 
   //Chatmessage listener
   socket.on('chatMessage', (message) => {
     console.log(message);
-    io.emit('message', message);
+    io.emit('message', formatMessage('user', message));
   });
 });
 
