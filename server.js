@@ -32,7 +32,7 @@ io.on('connection', (socket) => {
     'message',
     formatMessage(
       serverMessage,
-      'Hello, and welcome to Pigeon presented by EncoreOS'
+      'Never give out your password, credit card, or other personal infromation while in an instant message chat'
     )
   );
 
