@@ -3,7 +3,7 @@ import express from 'express';
 
 import formatMessage from './utils/formatMessage.js';
 
-const serverMessage = 'ServerBot';
+const serverMessage = 'Chat Pigeon';
 
 const app = express();
 import { createServer } from 'http';
@@ -48,7 +48,8 @@ io.on('connection', (socket) => {
       'message',
       formatMessage(
         serverMessage,
-        `${username} has joined the chat ${socket.id}`
+        `${username} has joined the chat `
+        // `${username} has joined the chat ${socket.id}`
       )
     );
   });
