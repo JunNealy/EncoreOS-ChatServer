@@ -1,5 +1,6 @@
 Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
+
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -7,8 +8,6 @@ Improved compatibility of back to top link: See: https://github.com/othneildrew/
 *** Don't forget to give the project a star!
 *** Thanks again! Now go create something AMAZING! :D
 -->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -20,8 +19,6 @@ Improved compatibility of back to top link: See: https://github.com/othneildrew/
 -->
 
 [LinkedIn][linkedin-shield][https://www.linkedin.com/in/junypyrnealy/]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -42,8 +39,6 @@ Improved compatibility of back to top link: See: https://github.com/othneildrew/
 
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -71,53 +66,50 @@ Improved compatibility of back to top link: See: https://github.com/othneildrew/
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
-
-* [![React][React.js]][React-url]
-
+- [![React][React.js]][React-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 ### Prerequisites
-* npm
+
+- npm
   ```sh
   npm install npm@latest -g
   ```
 
 ### Installation
+
 2. Clone the repo
    ```sh
    git https://github.com/JunNealy/EncoreOS-ChatServer.git
    ```
 3. Install NPM packages
+
    ```sh
    npm install
    ```
 
 4. Install NPM packages
+
    ```sh
    copy .env.sample > rename copy .env > set the PORT varaible to desired local port.
    ```
 
-4. Run the application
+5. Run the application
    ```sh
    npm run dev
    ```
@@ -128,30 +120,24 @@ Improved compatibility of back to top link: See: https://github.com/othneildrew/
 
 EncoreOS can be used to experience a nostalgic trip back to the Windows 95 era. Users can chat, create documents, and perform calculations just like they would on an old desktop system.
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 
 ## Roadmap
 
-- [X] Add Chat App
-- [X] Add Calculator App
-- [X] Add Snake Game
-- [X] Add Virtual Pet
-- [X] Add Rich Text Editing App
+- [x] Add Chat App
+- [x] Add Calculator App
+- [x] Add Snake Game
+- [x] Add Virtual Pet
+- [x] Add Rich Text Editing App
   - [ ] Improve Rich Text Editor Functionality for more Authentic Feel
 - [ ] Add Embeded Web Browser
-
 
 See the [open issues](https://github.com/JunNealy/EncoreOS-ChatServer/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -167,18 +153,16 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
+
 ## Contact
 
 Junypyr Nealy - junypyr@gmail.com
@@ -187,21 +171,18 @@ Project Link: [https://github.com/JunNealy/EncoreOS](https://github.com/JunNealy
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
-* [Sysfont by Alina Sava](https://fontsarena.com/sysfont-by-alina-sava/)
-* [Bootup Sound by Dodgykebaab Stock Room ](https://www.youtube.com/watch?v=fEchUhAOfe4)
-
+- [Sysfont by Alina Sava](https://fontsarena.com/sysfont-by-alina-sava/)
+- [Bootup Sound by Dodgykebaab Stock Room ](https://www.youtube.com/watch?v=fEchUhAOfe4)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
 [contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
@@ -230,4 +211,4 @@ Project Link: [https://github.com/JunNealy/EncoreOS](https://github.com/JunNealy
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[JQuery-url]: https://jquery.com
