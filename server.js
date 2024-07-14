@@ -1,6 +1,7 @@
 import express from 'express';
-import { WebSocket, WebSocketServer } from 'ws';
 import { createServer } from 'http';
+import { WebSocket, WebSocketServer } from 'ws';
+
 import 'dotenv/config';
 
 const PORT = process.env.PORT;
