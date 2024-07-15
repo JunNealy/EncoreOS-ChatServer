@@ -38,7 +38,7 @@
     <a href="https://github.com/JunNealy/EncoreOS-ChatServer"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/JunNealy/EncoreOS-ChatServer">The EncoreOS Chat-Sever is needed for full chat functionality</a>
+    <a href="https://github.com/JunNealy/EncoreOS">For Use with the EncoreOS frontend</a>
   </p>
 </div>
 
