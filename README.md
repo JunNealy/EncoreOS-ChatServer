@@ -113,12 +113,12 @@
    npm install
    ```
 
-3. Install NPM packages
+4. Configuer Environmental Variables
    ```sh
    copy .env.sample > rename copy to .env > set the env variable PORT to the desired local port you want your chat server to listen on example: PORT=3000
    ```
 
-4. Run the application
+5. Run the application
    ```sh
    npm run dev
    ```
