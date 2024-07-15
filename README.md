@@ -75,7 +75,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[Product Name Screen Shot](images/EncoreOS-Product-Image.png)
+![EncoreOS](images/EncoreOS-Product-Image.png "EncoreOS")
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
