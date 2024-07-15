@@ -1,6 +1,5 @@
-Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
-
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -8,6 +7,8 @@ Improved compatibility of back to top link: See: https://github.com/othneildrew/
 *** Don't forget to give the project a star!
 *** Thanks again! Now go create something AMAZING! :D
 -->
+
+
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -20,10 +21,12 @@ Improved compatibility of back to top link: See: https://github.com/othneildrew/
 
 [LinkedIn][linkedin-shield][https://www.linkedin.com/in/junypyrnealy/]
 
+
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/JunNealy/EncoreOS-ChatServer">
     <img src="images/EncoreOS-Logo.png" alt="EncoreOS Logo" width="80" height="80">
   </a>
 
@@ -35,10 +38,11 @@ Improved compatibility of back to top link: See: https://github.com/othneildrew/
     <a href="https://github.com/JunNealy/EncoreOS-ChatServer"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/JunNealy/EncoreOS">For Use with the EncoreOS Application</a>
-
+    <a href="https://github.com/JunNealy/EncoreOS-ChatServer">The EncoreOS Chat-Sever is needed for full chat functionality</a>
   </p>
 </div>
+
+
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -66,50 +70,53 @@ Improved compatibility of back to top link: See: https://github.com/othneildrew/
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
 
+
+<!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](images/EncoreOS-Product-Image.png)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 ### Built With
 
-- [![React][React.js]][React-url]
+
+* [![React][React.js]][React-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 
+
+<!-- GETTING STARTED -->
 ## Getting Started
 
 ### Prerequisites
-
-- npm
+* npm
   ```sh
   npm install npm@latest -g
   ```
 
 ### Installation
-
 2. Clone the repo
    ```sh
    git https://github.com/JunNealy/EncoreOS-ChatServer.git
    ```
 3. Install NPM packages
-
    ```sh
    npm install
    ```
 
-4. Install NPM packages
-
+3. Install NPM packages
    ```sh
-   copy .env.sample > rename copy .env > set the PORT varaible to desired local port.
+   copy .env.sample > rename copy to .env > set the env variable PORT to the desired local port you want your chat server to listen on example: PORT=3000
    ```
 
-5. Run the application
+4. Run the application
    ```sh
    npm run dev
    ```
@@ -120,24 +127,30 @@ Improved compatibility of back to top link: See: https://github.com/othneildrew/
 
 EncoreOS can be used to experience a nostalgic trip back to the Windows 95 era. Users can chat, create documents, and perform calculations just like they would on an old desktop system.
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
 
 ## Roadmap
 
-- [x] Add Chat App
-- [x] Add Calculator App
-- [x] Add Snake Game
-- [x] Add Virtual Pet
-- [x] Add Rich Text Editing App
+- [X] Add Chat App
+- [X] Add Calculator App
+- [X] Add Snake Game
+- [X] Add Virtual Pet
+- [X] Add Rich Text Editing App
   - [ ] Improve Rich Text Editor Functionality for more Authentic Feel
 - [ ] Add Embeded Web Browser
+
 
 See the [open issues](https://github.com/JunNealy/EncoreOS-ChatServer/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
 
+
+<!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -153,36 +166,41 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
 
+
+<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTACT -->
 
+
+<!-- CONTACT -->
 ## Contact
 
 Junypyr Nealy - junypyr@gmail.com
 
-Project Link: [https://github.com/JunNealy/EncoreOS](https://github.com/JunNealy/EncoreOS-ChatServer)
+Project Link: [https://github.com/JunNealy/EncoreOS-ChatServer](hhttps://github.com/JunNealy/EncoreOS-ChatServer)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 <!-- ACKNOWLEDGMENTS -->
-
 ## Acknowledgments
 
-- [Sysfont by Alina Sava](https://fontsarena.com/sysfont-by-alina-sava/)
-- [Bootup Sound by Dodgykebaab Stock Room ](https://www.youtube.com/watch?v=fEchUhAOfe4)
+* [Sysfont by Alina Sava](https://fontsarena.com/sysfont-by-alina-sava/)
+* [Bootup Sound by Dodgykebaab Stock Room ](https://www.youtube.com/watch?v=fEchUhAOfe4)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
 [contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
@@ -211,4 +229,4 @@ Project Link: [https://github.com/JunNealy/EncoreOS](https://github.com/JunNealy
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com
+[JQuery-url]: https://jquery.com 
